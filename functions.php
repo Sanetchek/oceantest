@@ -22,10 +22,15 @@ if ( ! function_exists( 'mytheme_scripts' ) ){
         wp_enqueue_script( 'theme_js_5', get_template_directory_uri().'/js/libs/swiper-bundle.min.js', array( 'jquery'), '1.0.0', true );
         wp_enqueue_script( 'theme_js_6', get_template_directory_uri().'/js/main.js', array( 'jquery'), '1.0.0', true );
 
-        wp_localize_script( 'custom_js', 'ajax_object', array(
+        wp_localize_script( 'theme_js_6', 'ajax_object', array(
             'ajaxurl' => admin_url( 'admin-ajax.php' ),
             'directory_uri' => get_template_directory_uri(),
             'bloginfo_url' => get_bloginfo('url'),
         ));
     }
 }
+
+/**
+ * Slider.
+ */
+require get_template_directory() . '/inc/__slider.php';

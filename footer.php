@@ -28,6 +28,9 @@
         </div>
     </div>
 </footer>
+
+<?php display_slider_popup(); ?>
+
 <?php wp_footer(); ?>
 </body>
 </html>
