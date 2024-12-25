@@ -1,0 +1,8 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+  color: $primary-color;
+  @include border-radius(5px);
+  margin: 0;
+}

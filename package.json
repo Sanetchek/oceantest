@@ -1,0 +1,15 @@
+{
+  "name": "oceantest",
+  "version": "1.0.0",
+  "description": "## Назва проекту: Розробка блоку слайдера для теми WordPress",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --style compressed --watch scss:./css/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.83.0"
+  }
+}
