@@ -126,7 +126,7 @@ function display_slider_popup() {
   ?>
   <!-- Popup for Slider Item -->
   <div id="slider-popup" class="slider-popup mfp-hide">
-    <h2 class="popup-title">Description</h2>
+    <h2 class="popup-title"><?= __('Description', 'oceantest') ?></h2>
     <div class="popup-content"></div>
   </div>
   <?php
