@@ -42,6 +42,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Vendor files
+/vendor/
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
@@ -118,6 +121,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# IDE files
+.idea/
+.vscode/
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
